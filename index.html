@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input class="searchInput" type="text" placeholder="Name of Country">
+            <div class="search-icon">
+                <img src="/Weather-image/search_icon.png" alt="search icon">
+            </div>
+        </div>
+        <div class="error">
+            <p>invalid country name</p>
+        </div>
+        <div class="weather-info">
+            <img class="weatherImg" src="./Weather-image/weather_sunny.jpg" alt="">
+            <h1 class="temp">30°C</h1>
+            <p class="country">Nigeria</p>
+            <div class="temp_wind-container">
+                <div class="col">
+                    <img src="./Weather-image/weather_temp.png" alt="">
+                    <div class="humidity">
+                        <h2 class="humid">48%</h2>
+                        <P>Humidity</P>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./Weather-image/weather speed icon.png" alt="">
+                    <div class="wind">
+                        <h2 class="Wind">10.29km/h</h2>
+                        <P>Wind Speed</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather_app.js">
+
+    </script>
+</body>
+</html>
